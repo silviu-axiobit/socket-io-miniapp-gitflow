@@ -1,3 +1,9 @@
+//added 3 lines to timerProcess.js
+
+//added super crazy functionality
+
+//removed 1 bug
+
 const { insertClosedNotClaimedEvent } = require("./createTicketDAL");
 const { app } = require("../../../../index");
 // const httpServer = require("http").createServer(app);
