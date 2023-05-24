@@ -4,6 +4,8 @@
 
 //removed 1 bug
 
+//added this line to see how a merge woul look like in history without --no--ff flag
+
 const { insertClosedNotClaimedEvent } = require("./createTicketDAL");
 const { app } = require("../../../../index");
 // const httpServer = require("http").createServer(app);
