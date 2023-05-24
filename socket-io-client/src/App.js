@@ -9,19 +9,25 @@ function App() {
     <div className="main-container">
       {/* LOAD OR UNLOAD THE CLIENT */}
       {loadClient ? (
-        <Button
-          variant="success"
-          onClick={() => setLoadClient((prevState) => !prevState)}
-        >
-          Unmount timer
-        </Button>
+        <div>
+          <Button
+            variant="success"
+            onClick={() => setLoadClient((prevState) => !prevState)}
+          >
+            Unmount timer
+          </Button>{" "}
+          <p>Click me to stop the timer.</p>
+        </div>
       ) : (
-        <Button
-          variant="warning"
-          onClick={() => setLoadClient((prevState) => !prevState)}
-        >
-          Mount timer
-        </Button>
+        <div>
+          <Button
+            variant="warning"
+            onClick={() => setLoadClient((prevState) => !prevState)}
+          >
+            Mount timer
+          </Button>
+          <p>Click me to start up!</p>
+        </div>
       )}
       {/* SOCKET IO CLIENT*/}
       {loadClient ? <TimerComponent /> : null}
