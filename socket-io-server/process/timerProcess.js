@@ -1,3 +1,5 @@
+//added 3 lines to timerProcess.js
+
 const { insertClosedNotClaimedEvent } = require("./createTicketDAL");
 const { app } = require("../../../../index");
 // const httpServer = require("http").createServer(app);
