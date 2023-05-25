@@ -18,7 +18,7 @@
  */
 
 /**
- * 3. Now george-silviu can finnish the feature.
+ * 3. Now george-silviu can finnish the feature, and it finishes it.
  */
 const { insertClosedNotClaimedEvent } = require("./createTicketDAL");
 const { app } = require("../../../../index");
