@@ -6,6 +6,11 @@
 
 //added this line to see how a merge woul look like in history without --no--ff flag
 
+/**
+ * george-silviu starts to work on the feature.
+ * It advances but will need to pull from silviu-axiobit repo to finish his work.
+ */
+
 const { insertClosedNotClaimedEvent } = require("./createTicketDAL");
 const { app } = require("../../../../index");
 // const httpServer = require("http").createServer(app);
