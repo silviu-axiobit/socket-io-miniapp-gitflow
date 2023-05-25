@@ -7,10 +7,19 @@
 //added this line to see how a merge woul look like in history without --no--ff flag
 
 /**
- * george-silviu starts to work on the feature.
+ * 1. george-silviu starts to work on the feature.
  * It advances but will need to pull from silviu-axiobit repo to finish his work.
  */
 
+/**
+ * 2. Silviu-axiobit made some changes.
+ * George-silviu will need this changes to build, on them.
+ *
+ */
+
+/**
+ * 3. Now george-silviu can finnish the feature.
+ */
 const { insertClosedNotClaimedEvent } = require("./createTicketDAL");
 const { app } = require("../../../../index");
 // const httpServer = require("http").createServer(app);
